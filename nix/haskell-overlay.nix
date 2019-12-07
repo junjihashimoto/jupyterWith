@@ -69,7 +69,7 @@ let
 in
 
 {
-  haskellPackages = pkgs.haskell.packages.ghc844.override (old: {
+  haskellPackages = pkgs.haskell.packages.ghc865.override (old: {
     overrides =
       pkgs.lib.composeExtensions
         (old.overrides or (_: _: {}))
